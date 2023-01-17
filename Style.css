@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #1E1E1E;
+  color: #fff;
+  margin: 0
+}
+
+.scores{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px;
+}
+.Pscore{
+  grid-row: 2;
+  grid-column: 1;
+}
+.Cscore{
+  grid-row: 2;
+  grid-column: 3;
+}
+#text{
+  grid-column: 2;
+}
